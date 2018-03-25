@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>404 | FindAPhD</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width,height=device-height initial-scale=1">
+  <link data-require="bootstrap-css@3.3.6" data-semver="3.3.6" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" />
+  <script data-require="jquery@*" data-semver="2.2.0" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script data-require="bootstrap.js@*" data-semver="3.3.6" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+        <div class="container">     
+    <div class="row mrgTop">
+<div class="visible-xs">
+       <div> <img class="img img-responsive imgR" src="./error-pages/assets/four.png" />
+  <img class="img img-responsive imgR"  src="./error-pages/assets/compass.png" />
+ <img class="img img-responsive imgR" src="./error-pages/assets/four.png" />
+       </div> </div>
+
+   <div class="hidden-xs">
+        <div id="four1">
+        <img class="img img-responsive" src="./error-pages/assets/four.png" />
+        </div>   
+ <div id="compass">
+        <img class="img img-responsive"  src="./error-pages/assets/compass.png" />
+  </div>
+        <div id="four2">   
+            <img class="img img-responsive" src="./error-pages/assets/four.png" />
+            </div>
+</div>
+
+         </div>
+        <div class="row"> <br> 
+             <div class="col-xs-offset-0 mainTxt"><strong>Oops!</strong><br>    <span class="otherTxt1"> the page you requested was not found</span> </div><br>      
+        </div>
+        <div class="row">
+        <button type="button" class="btn btn-primary btnOrange center-block"><a href="https://www.findaphd.com" title="FindAPhD.com">Home</a></button>
+        </div>
+ </div>
+</body>
+<script>
+$(document).ready(function() {
+$("#compass").mouseover(function() {
+  $(this).css({"transition-duration": "3s", "transform": "rotate" + "(" + (getRandomInt(0,359)) + "deg)"})
+  console.log((getRandomInt(0,359)))
+})
+})
+function getRandomInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min)) + min;
+}
+  </script>
+<style>
+.btnOrange {
+  padding:10px;
+  background-color:#d91b5c;
+  border-radius: 3px;
+  width: 120px;
+}
+.btnOrange a{
+    color:white !important;
+    font-size: 16px;
+}
+.mainTxt {
+    text-align: -webkit-center;font-size: 35px;    color: white;
+}
+.imgR { 
+margin-top:100px;
+display: inline-block;
+width: 25%
+}
+#compass{
+      display: inline-block; 
+}
+    #four1 {
+    display: inline-block;
+    }
+        #four2 {
+        display: inline-block;
+    }
+  .mrgTop {
+      margin-top:20%;   
+      text-align: -webkit-center;
+  }
+  .otherTxt1 {
+    font-size: 24px;
+    z-index: 2;
+    font-family: sans-serif;
+    color: white;
+    text-align: -webkit-center;
+  }
+  body {
+    background: radial-gradient(ellipse at center,rgba(12, 12, 12, 0) 0,rgba(67,67,67,0) 68%,rgba(68,68,68,.66) 100%);
+    height: 950px;
+    background-color: #34aaef!important
+  }
+</style>
+</html>
