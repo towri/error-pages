@@ -11,20 +11,20 @@
 #### Masters 404 page : 2 (https://github.com/towri/error-pages/blob/master/error-pages/masters/404-1.html)
 ![Image of Mas404template12](https://github.com/towri/error-pages/blob/master/error-pages/assets/Mas-404.png)
 
-- Radial background
 - Compass rotates on hover
+- Radial background
 - More navigation options
 
 #### Masters 404 page : 3 (https://github.com/towri/error-pages/blob/master/error-pages/masters/404.html)
 ![Image of Mas404template122](https://github.com/towri/error-pages/blob/master/error-pages/assets/Mas_404.png)
 
-- Radial background
 - Compass rotates on hover
+- Radial background
 - One navigation option
 
 #### Masters 404 page : 4 
-![Image of Mas404template122](https://github.com/towri/error-pages/blob/master/error-pages/assets/Mas_404.png)
+![Image of Mas404template122](https://github.com/towri/error-pages/blob/master/error-pages/assets/Mas_404_.png)
 
-- Radial background
 - Compass rotates slowly on load
+- Solid background
 - One navigation option
