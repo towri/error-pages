@@ -28,3 +28,10 @@
 - Compass rotates slowly on load
 - Solid background
 - One navigation option
+
+#### PhD 404 page : 1 (https://github.com/towri/error-pages/blob/master/error-pages/phd/404.html)
+![Image of Mas404template122](https://github.com/towri/error-pages/blob/master/error-pages/assets/PhD404.png)
+
+- Compass rotates on hover
+- Radial background
+- One navigation option
